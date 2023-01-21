@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const { ipcRenderer } = require('electron')
+
     // setTimeout(() => {
     //     document.querySelector("#record").classList.add("recording")
     //     document.querySelector("#mic-icon").classList.add("hide")   
@@ -9,6 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const micInput = document.querySelector('#mic')
     let isRecording = false
     let selectedDeviceId = null
+    let mediaRecorder = null
+    let startTime = null
+    let chunks = []
 
     navigator.mediaDevices.enumerateDevices().then(devices => {
         devices.forEach(device => {
@@ -19,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 const option = document.createElement("option")
                 option.value = device.deviceId
                 option.text = device.label
-
                 micInput.appendChild(option)
             }
         })
@@ -30,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(selectedDeviceId)
     })
 
-
     function updateButtonTo(recording) {
         if (recording) {
             document.querySelector("#record").classList.add("recording")
@@ -39,6 +42,66 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelector("#record").classList.remove("recording")
             document.querySelector("#mic-icon").classList.remove("hide")   
         }
+    }
+
+    record.addEventListener("click", () => {
+        updateButtonTo(!isRecording)
+        handleRecord(isRecording)
+        isRecording = !isRecording
+    })
+
+    function handleRecord(recording) {
+        if (recording) {
+            // stop
+            mediaRecorder.stop()
+        } else {
+
+            // start
+            navigator.mediaDevices.getUserMedia({audio: {deviceId: selectedDeviceId}, video: false}).then(stream => {
+                mediaRecorder = new MediaRecorder(stream)
+                mediaRecorder.start()
+                startTime = Date.now()
+                updateDisplay()
+                mediaRecorder.ondataavailable = (event) => {
+                    chunks.push(event.data)
+                }
+                mediaRecorder.onstop = (event) => {
+                   saveData()
+                }
+            })
+        }
+    }
+
+    function saveData() {
+        const blob = new Blob(chunks, {"type": "audio/webm; codecs=opus"})
+        console.log(blob)
+        blob.arrayBuffer().then(blobBuffer => {
+            const buffer = new Buffer(blobBuffer, "binary")
+            ipcRenderer.send("save_buffer", buffer)
+        })
+        // document.querySelector("#audio").src = URL.createObjectURL(blob)
+        chunks = []
+    }
+
+    function updateDisplay() {
+        display.innerHTML = durationToTimeStamp(Date.now() - startTime)
+        if (isRecording) {
+            window.requestAnimationFrame(updateDisplay)
+        }
+    }
+
+    function durationToTimeStamp(duration) {
+        let miliseconds = parseInt((duration % 1000) / 100)
+        let seconds = Math.floor((duration / 1000) % 60)
+        let minutes = Math.floor((duration / 1000 / 60) % 60)
+        let hours = Math.floor((duration / 1000 / 60 / 60))
+        
+        miliseconds = miliseconds < 10 ? "10" + miliseconds : miliseconds
+        seconds = seconds < 10 ? "0" + seconds : seconds
+        minutes = minutes < 10 ? "0" + minutes : minutes
+        hours = hours < 10 ? "0" + hours : hours
+
+        return `${hours}:${minutes}:${seconds}.${miliseconds}`
     }
 })
 

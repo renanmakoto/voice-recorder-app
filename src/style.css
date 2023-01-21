@@ -74,7 +74,6 @@ body {
 }
 
 #mic-icon {
-
     position: absolute;
     width: 30px;
     transform: translate(-50%, -50%);
@@ -85,4 +84,23 @@ body {
 
 .preload *{
     transition: none !important;
+}
+
+label {
+    color: white;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.group>input,
+.group>select {
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
 }
