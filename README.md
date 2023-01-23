@@ -23,3 +23,7 @@ The app finished. Follow the steps below in order to use it.
 Another way to use the app is to simply download the zipped folder through the link below. This way, it will not be necessary to have the VSCode installed on your computer. You simple, decompress it and run the app by clicking twice the "Recorder-1.0.0.AppImage" file.
 
 https://www.mediafire.com/file/36p4jsx8weh8yry/voice-recorder.zip/file
+
+OBS: The link above is to download the Linux version of the app. Fo the windows version there's the link below:
+
+https://www.mediafire.com/file/2vc6psla6ui9jmn/windows-voice-recorder.zip/file
