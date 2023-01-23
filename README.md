@@ -1,2 +1,25 @@
 # voice-recorder-app
-A voice recorder I'm developing to practice my ElectronJS skills.
+A voice recorder I developed to practice my Electron skills.
+
+The app finished. Follow the steps below in order to use it.
+
+- Download the code by clicking on the green button "<> Code"
+
+- Click "Download ZIP"
+
+- Decompress the file
+
+- Open the folder using VSCode
+
+- Open the terminal and type "npm run dist" and it will create a folder inside the folder which you decompressed
+
+- Inside this folder, to run the app, you should open the "dist" folder normally, as if you were to open any other folder
+
+- You will a file named "Recorder-1.0.0.AppImage". Double click it and the app will open
+
+- Make sure to set where you want to audio files to be saved by checking the "Preferences" menu
+
+
+Another way to use the app is to simply download the zipped folder through the link below. This way, it will not be necessary to have the VSCode installed on your computer. You simple, decompress it and run the app by clicking twice the "Recorder-1.0.0.AppImage" file.
+
+https://www.mediafire.com/file/36p4jsx8weh8yry/voice-recorder.zip/file
