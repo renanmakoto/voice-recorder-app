@@ -13,7 +13,6 @@ let destination = preferences.get('destination')
 const isDev = (process.env.NODE_ENV !== undefined && process.env.NODE_ENV === "development") ? true : false
 const isMac = process.platform === 'darwin' ? true : false
 
-
 function createPreferences() {
     const preferenceWindow = new BrowserWindow({
         width: isDev ? 980 : 500,
@@ -29,7 +28,6 @@ function createPreferences() {
     })
 
     preferenceWindow.loadFile('./src/preferences/index.html')
-
     preferenceWindow.once('ready-to-show', () => {
         preferenceWindow.show()
         if (isDev) {
@@ -37,7 +35,6 @@ function createPreferences() {
         }
         preferenceWindow.webContents.send("dest-path-update", destination)
     })
-
 }
 
 function createWindow() {

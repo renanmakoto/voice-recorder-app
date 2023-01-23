@@ -1,11 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const { ipcRenderer } = require('electron')
-
-    // setTimeout(() => {
-    //     document.querySelector("#record").classList.add("recording")
-    //     document.querySelector("#mic-icon").classList.add("hide")   
-    // }, 3000)
-
     const display = document.querySelector('#display')
     const record = document.querySelector('#record')
     const micInput = document.querySelector('#mic')
@@ -55,7 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
             // stop
             mediaRecorder.stop()
         } else {
-
             // start
             navigator.mediaDevices.getUserMedia({audio: {deviceId: selectedDeviceId}, video: false}).then(stream => {
                 mediaRecorder = new MediaRecorder(stream)
