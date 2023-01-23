@@ -5,11 +5,22 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "start_dev": "NODE_ENV=development electron ."
+    "start_dev": "NODE_ENV=development electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {},
+  "build": {
+    "appId": "renanmakoto/com.github.recorder",
+    "linux": {
+      "icon": "./assets/icons/icon.png"
+    }
+  },
   "devDependencies": {
-    "electron": "^22.0.2"
+    "builder": "^5.0.0",
+    "electron": "^22.0.3",
+    "electron-builder": "^23.6.0"
   }
 }

@@ -2,9 +2,17 @@ const { app, BrowserWindow, ipcMain, Menu, globalShortcut, shell, dialog } = req
 const os = require('os')
 const path = require('path')
 const fs = require('fs')
-let destination = path.join(os.homedir(), 'Videos')
+const Store = require('./Store')
+const preferences = new Store({
+    configName: 'user-preferences',
+    defaults: {
+        destination: path.join(os.homedir(), 'audios')
+    }
+})
+let destination = preferences.get('destination')
 const isDev = (process.env.NODE_ENV !== undefined && process.env.NODE_ENV === "development") ? true : false
 const isMac = process.platform === 'darwin' ? true : false
+
 
 function createPreferences() {
     const preferenceWindow = new BrowserWindow({
@@ -108,6 +116,7 @@ ipcMain.on('save_buffer', (e, buffer) => {
 ipcMain.handle("show-dialog", async (event) => {
     const result = await dialog.showOpenDialog({ properties: ['openDirectory'] })
     const dirPath = result.filePaths[0]
-    destination = dirPath
+    preferences.set('destination', dirPath)
+    destination = preferences.get('destination')
     return destination
 })
