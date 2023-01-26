@@ -1,5 +1,5 @@
 {
-  "name": "Recorder",
+  "name": "recorder",
   "version": "1.0.0",
   "description": "Recorder App",
   "main": "main.js",
@@ -16,6 +16,9 @@
     "appId": "renanmakoto/com.github.recorder",
     "linux": {
       "icon": "./assets/icons/icon.png"
+    },
+    "windows": {
+      "icons": "./assets/icons/icon.png"
     }
   },
   "devDependencies": {
