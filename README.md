@@ -34,12 +34,12 @@ SNAPCRAFT
 
 Another option is to install using the Snap package manager. Although some people might not like Snap, and prefer AppImage or Flatpak to it, it is still very used by the community.
 
-You might to install using the link below:
+You might install using the link below:
 
 https://snapcraft.io/renanmakotos-recorder
 
 
-OBS: You need to have the Snap package manager installed on your linux distribution before running the command.
+Or through the command line. You need to have the Snap package manager installed on your linux distribution before running the command.
 
 The command:
 
