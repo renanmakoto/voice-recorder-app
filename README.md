@@ -20,7 +20,7 @@ The app is finished. Follow the steps below in order to use it.
 - Make sure to set where you want to audio files to be saved by checking the "Preferences" menu
 
 
-Another way to use the app is to simply download the zipped folder through the link below. This way, it will not be necessary to have the VSCode installed on your computer. You simple, decompress it and run the app by clicking twice the "Recorder-1.0.0.AppImage" file.
+Another way to use the app is to simply download the zipped folder through the link below. This way, it will not be necessary to have the VSCode installed on your computer. You simply decompress it and run the app by clicking twice the "Recorder-1.0.0.AppImage" file.
 
 https://www.mediafire.com/file/36p4jsx8weh8yry/voice-recorder.zip/file
 
