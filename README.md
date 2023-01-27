@@ -15,7 +15,7 @@ The app is finished. Follow the steps below in order to use it.
 
 - Inside this folder, to run the app, you should open the "dist" folder normally, as if you were to open any other folder
 
-- You will a file named "Recorder-1.0.0.AppImage". Double click it and the app will open
+- You will see a file named "Recorder-1.0.0.AppImage". Double click it and the app will open
 
 - Make sure to set where you want to audio files to be saved by checking the "Preferences" menu
 
