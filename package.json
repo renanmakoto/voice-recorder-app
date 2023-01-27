@@ -1,5 +1,5 @@
 {
-  "name": "recorder",
+  "name": "renanmakotos-recorder",
   "version": "1.0.0",
   "description": "Recorder App",
   "main": "main.js",
@@ -9,21 +9,20 @@
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
-  "author": "",
+  "author": "renanmakoto",
   "license": "ISC",
-  "dependencies": {},
   "build": {
     "appId": "renanmakoto/com.github.recorder",
     "linux": {
       "icon": "./assets/icons/icon.png"
     },
-    "windows": {
-      "icons": "./assets/icons/icon.png"
+    "win": {
+      "icon": "./assets/icons/icon.png"
     }
   },
   "devDependencies": {
     "builder": "^5.0.0",
-    "electron": "^22.0.3",
+    "electron": "^22.1.0",
     "electron-builder": "^23.6.0"
   }
 }
