@@ -43,4 +43,4 @@ Or through the command line. You need to have the Snap package manager installed
 
 The command:
 
-$ sudo snap install renanmakotos-recorder
+$ sudo snap install rms-recorder
