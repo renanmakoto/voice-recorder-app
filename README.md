@@ -27,3 +27,20 @@ https://www.mediafire.com/file/36p4jsx8weh8yry/voice-recorder.zip/file
 OBS: The link above is to download the Linux version of the app. Fo the windows version there's the link below:
 
 https://www.mediafire.com/file/2vc6psla6ui9jmn/windows-voice-recorder.zip/file
+
+
+
+SNAPCRAFT
+
+Another option is to install using the Snap package manager. Although some people might not like Snap, and prefer AppImage or Flatpak to it, it is still very used by community.
+
+You might to install using the link below:
+
+https://snapcraft.io/renanmakotos-recorder
+
+
+OBS: You need to have the Snap package manager installed on your linux distribution before running the command.
+
+The command:
+
+$ sudo snap install renanmakotos-recorder
