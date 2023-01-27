@@ -1,7 +1,7 @@
 # voice-recorder-app
 A voice recorder I developed to practice my Electron skills.
 
-The app finished. Follow the steps below in order to use it.
+The app is finished. Follow the steps below in order to use it.
 
 - Download the code by clicking on the green button "<> Code"
 
