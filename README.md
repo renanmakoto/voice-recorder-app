@@ -36,7 +36,7 @@ Another option is to install using the Snap package manager. Although some peopl
 
 You might install using the link below:
 
-https://snapcraft.io/renanmakotos-recorder
+https://snapcraft.io/rms-recorder
 
 
 Or through the command line. You need to have the Snap package manager installed on your linux distribution before running the command.
