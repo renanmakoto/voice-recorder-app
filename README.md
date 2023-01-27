@@ -32,7 +32,7 @@ https://www.mediafire.com/file/2vc6psla6ui9jmn/windows-voice-recorder.zip/file
 
 SNAPCRAFT
 
-Another option is to install using the Snap package manager. Although some people might not like Snap, and prefer AppImage or Flatpak to it, it is still very used by community.
+Another option is to install using the Snap package manager. Although some people might not like Snap, and prefer AppImage or Flatpak to it, it is still very used by the community.
 
 You might to install using the link below:
 
