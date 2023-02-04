@@ -26,7 +26,7 @@ https://www.mediafire.com/file/36p4jsx8weh8yry/voice-recorder.zip/file
 
 OBS: The link above is to download the Linux version of the app. Fo the windows version there's the link below:
 
-https://www.mediafire.com/file/2vc6psla6ui9jmn/windows-voice-recorder.zip/file
+https://www.mediafire.com/file/iexbnczvfz3se8u/windows-voice-recorder.zip/file
 
 
 
