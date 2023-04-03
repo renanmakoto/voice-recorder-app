@@ -15,7 +15,7 @@ TECHNOLOGIES USED:
 
 
 
-The app is finished. Follow the steps below in order to use it.
+<p>Follow the steps below in order to use it.</p>
 
 - Download the code by clicking on the green button "<> Code"
 
