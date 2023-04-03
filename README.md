@@ -2,7 +2,7 @@
 
 <p align="center">A voice recorder I developed to practice my Electron skills.</p>
 
-<img src="https://img.shields.io/badge/os-Linux-green" /> <img src="https://img.shields.io/badge/os-Windows-blue" /> <img src="https://img.shields.io/badge/release-v1.0.0-blue" /> <a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-v9.3.1-red" /></a> <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/node.js-v.18.14.0-brightgreen" /></a> <img src="https://img.shields.io/badge/license-MIT-blue" /> <img src="https://img.shields.io/badge/ReactNative-v0.71.4-blue" /> <img src="https://img.shields.io/badge/React-v18.2.0-blue" /> <img src="https://img.shields.io/badge/Expo-v48.0.5-white" />
+<img src="https://img.shields.io/badge/os-Linux-green" /> <img src="https://img.shields.io/badge/os-Windows-blue" /> <img src="https://img.shields.io/badge/release-v1.0.0-blue" /> <a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-v9.3.1-red" /></a> <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/node.js-v.18.14.0-brightgreen" /></a> <img src="https://img.shields.io/badge/license-MIT-blue" /> <img src="https://img.shields.io/badge/ReactNative-v0.71.4-blue" /> <img src="https://img.shields.io/badge/React-v18.2.0-blue" /> <img src="https://img.shields.io/badge/Expo-v48.0.5-#001A33" />
 
 TECHNOLOGIES USED:
 
