@@ -12,6 +12,11 @@ TECHNOLOGIES USED:
 <a href="https://www.electronjs.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/2048px-Electron_Software_Framework_Logo.svg.png" style="width: 64px; height: 64px;" /></a>
 <a href="https://nodejs.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" style="width: 64px; height: 64px;" /></a>
 
+### Features
+
+- [x] Design
+- [x] Functionalities
+- [x] Uploaded to Snap Store
 
 <p align="center">With ❤ by <img src=https://img.shields.io/badge/-dotExtension-black /> <p/>
 
