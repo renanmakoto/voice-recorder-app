@@ -1,5 +1,6 @@
 <h1 align="center">Voice Recorder App</h1>
 
+<p align="center">A voice recorder I developed to practice my Electron skills.</p>
 
 TECHNOLOGIES USED:
 
@@ -13,11 +14,6 @@ TECHNOLOGIES USED:
 <p align="center">With ❤ by <img src=https://img.shields.io/badge/-dotExtension-black /> <p/>
 
 
-
-
-
-# voice-recorder-app
-A voice recorder I developed to practice my Electron skills.
 
 The app is finished. Follow the steps below in order to use it.
 
