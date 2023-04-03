@@ -1,3 +1,6 @@
+<h1 align="center">Voice Recorder App</h1>
+
+
 TECHNOLOGIES USED:
 
 <a><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" style="width: 64px; height: 64px;" /></a>
