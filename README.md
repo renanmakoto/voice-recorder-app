@@ -2,6 +2,8 @@
 
 <p align="center">A voice recorder I developed to practice my Electron skills.</p>
 
+<div align="center">
+
 <img src="https://img.shields.io/badge/os-Linux-green" /> <img src="https://img.shields.io/badge/os-Windows-blue" /> <img src="https://img.shields.io/badge/release-v1.0.0-blue" /> <a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-v9.3.1-red" /></a> <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/node.js-v.18.14.0-brightgreen" /></a> <img src="https://img.shields.io/badge/license-MIT-blue" /> <img src="https://img.shields.io/badge/Electron-v22.1.0-cyan" />
 
 TECHNOLOGIES USED:
@@ -17,6 +19,8 @@ TECHNOLOGIES USED:
 - [x] Design
 - [x] Functionalities
 - [x] Uploaded to Snap Store
+
+</div>
 
 <p align="center">With ❤ by <img src=https://img.shields.io/badge/-dotExtension-black /> <p/>
 
