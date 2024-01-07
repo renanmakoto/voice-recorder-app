@@ -20,6 +20,9 @@ TECHNOLOGIES USED:
 - [x] Functionalities
 - [x] Uploaded to Snap Store
 
+![thumbnail](https://github.com/renanmakoto/voice-recorder-app/assets/65373130/cf9d2526-8276-4f6f-9d09-1e1159e50813)
+
+
 </div>
 
 <p align="center">With ❤ by <img src=https://img.shields.io/badge/-dotExtension-black /> <p/>
