@@ -56,13 +56,11 @@ https://www.mediafire.com/file/iexbnczvfz3se8u/windows-voice-recorder.zip/file
 <br>
 
 
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/dotcorder){:target="_blank"}
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/dotcorder)
 
 Another option is to install using the Snap package manager. Although some people might not like Snap, and prefer AppImage or Flatpak to it, it is still very used by the community.
 
-You might install using the link below:
-
-<a target="_blank">https://snapcraft.io/dotcorder/</a>
+You might install using this <a href="http://https://snapcraft.io/dotcorder/" target="_blank">link</a>.
 
 
 Or through the command line. You need to have the Snap package manager installed on your linux distribution before running the command.
