@@ -54,9 +54,9 @@ OBS: The link above is to download the Linux version of the app. Fo the windows 
 https://www.mediafire.com/file/iexbnczvfz3se8u/windows-voice-recorder.zip/file
 
 
+
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/dotcorder)
 
-SNAPCRAFT
 
 Another option is to install using the Snap package manager. Although some people might not like Snap, and prefer AppImage or Flatpak to it, it is still very used by the community.
 
