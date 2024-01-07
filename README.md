@@ -1,4 +1,4 @@
-<h1 align="center">Voice Recorder App</h1>
+<h1 align="center">dotCorder</h1>
 
 <p align="center">A voice recorder I developed to practice my Electron skills.</p>
 
