@@ -61,11 +61,11 @@ Another option is to install using the Snap package manager. Although some peopl
 
 You might install using the link below:
 
-https://snapcraft.io/rms-recorder
+https://snapcraft.io/dotcorder
 
 
 Or through the command line. You need to have the Snap package manager installed on your linux distribution before running the command.
 
 The command:
 
-$ sudo snap install rms-recorder
+$ sudo snap install dotcorder
