@@ -1,6 +1,6 @@
 <h1 align="center">dotCorder</h1>
 
-<p align="center">A voice recorder I developed using Electron.</p>
+<p align="center">A voice recorder developed using Electron.</p>
 
 <div align="center">
 
