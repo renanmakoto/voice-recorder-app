@@ -2,25 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; media-src 'self' blob:;">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>dotCorder 2023 - by dotExtension</title>
+    <title>dotCorder - Voice Recorder</title>
 </head>
 <body class="preload">
     <div class="container">
         <div class="display-container">
-            <h1 id="display">00:00:00.0</h1>
+            <h1 id="display" aria-live="polite" aria-label="Recording duration">00:00:00.0</h1>
         </div>
         <div class="button-container">
-            <button id="record" class="">
-                <img id="mic-icon" class="" src="../../assets/mic.png" alt="microfone-icon">
+            <button id="record" type="button" aria-label="Start recording" title="Click to start/stop recording">
+                <img id="mic-icon" src="../../assets/mic.png" alt="Microphone icon">
             </button>
         </div>
         <div class="group">
-            <label for="mic">Input: </label>
-            <select id="mic" name="mic"></select>
+            <label for="mic">Input:</label>
+            <select id="mic" name="mic" aria-label="Select audio input device"></select>
         </div>
     </div>
     <script src="./script.js"></script>
