@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline';">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Preferences</title>
+    <title>Preferences - dotCorder</title>
 </head>
-    
 <body>
     <div class="container">
         <div class="group">
             <label for="dest-path">Destination path:</label>
-            <input id="dest-path" name="dest-path" type="text">
-            <button onclick="choose()">Choose</button>
+            <input 
+                id="dest-path" 
+                name="dest-path" 
+                type="text" 
+                readonly 
+                aria-label="Recording destination folder"
+                placeholder="Select a destination folder...">
+            <button type="button" onclick="choose()" aria-label="Choose destination folder">Choose</button>
         </div>
     </div>
-    <script src="../preferences/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
