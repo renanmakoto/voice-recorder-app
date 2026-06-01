@@ -11,7 +11,7 @@ TECHNOLOGIES USED:
 <a><img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/html5/html5-plain.svg" style="width: 64px; height: 64px;" /></a>
 <a><img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/css3/css3-plain.svg" style="width: 64px; height: 64px;" /></a>
 <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png" style="width: 64px; height: 64px;"/></a>
-<a href="https://www.electronjs.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/2048px-Electron_Software_Framework_Logo.svg.png" style="width: 64px; height: 64px;" /></a>
+<a href="https://www.electronjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/electron/electron-original.svg" style="width: 64px; height: 64px;" /></a>
 <a href="https://nodejs.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" style="width: 64px; height: 64px;" /></a>
 
 ### Features
